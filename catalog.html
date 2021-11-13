@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="js/js.js">
+    <title>Catalog</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a href="index.html" class="header__logo">
+                <img src="image/header-logo.svg" alt="nerds">
+            </a>
+            <ul class="menu__list">
+                <li class="menu__item"><a href="index.html" class="menu__item-link">Студия</a></li>
+                <li class="menu__item"><a href="blank.html" class="menu__item-link">Клиенты</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__item-link">Магазин</a></li>
+                <li class="menu__item"><a href="#" class="menu__item-link">Контакты</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__item-link menu__item-img"> <img src="img/cart-icon.svg" alt="" class="cart__icon"> Корзина</a></li>
+              </ul>
+        </nav>
+        <h1>Магазин готовых шаблонов</h1>
+    </header>
+    <main class="catalog__main">
+        <form method="get" action="https://echo.htmlacademy.ru/">
+            <fieldset class="filter-item">
+                <legend>Стоимость:</legend>
+                <div class="range-filter">
+                    <div class="range-controls">
+                        <div class="scale">
+                            <div class="bar" style="width: 30%; margin-left: 20%"></div>
+                          </div>
+                          <div class="toggle toggle-min" tabindex="0"></div>
+                          <div class="toggle toggle-max" tabindex="0"></div>
+                    </div>
+                    <div class="price-controls">
+                        <label class="min-price">
+                            от <input type="number" name="min-price" value="0">
+                          </label>
+                          <label class="max-price">
+                            до <input type="number" name="max-price" value="15000">
+                          </label>
+                    </div>
+                  </div>
+            </fieldset>
+            <div class="radio">
+                <h3 class="radio__title">Сетка:</h3>
+                <lable class="radio__lable">
+                    <input type="radio" class="radio__input" checked>
+                    Адаптивная
+                </lable>
+                <lable class="radio__lable">
+                    <input type="radio" class="radio__input">
+                    Фиксированная
+                </lable>
+                <lable class="radio__lable">
+                    <input type="radio" class="radio__input">
+                    Резиновая
+                </lable>
+            </div>
+            <div class="checked">
+                <h3 class="checked__title">Особенности:</h3>
+                <lable class="checked__lable">
+                    <input type="checkbox" class="checked__input" checked>
+                    Слайдер
+                </lable>
+                <lable class="checked__lable">
+                    <input type="checkbox" class="checked__input">
+                    Блок преимуществ
+                </lable>
+                <lable class="checked__lable">
+                    <input type="checkbox" class="checked__input" checked>
+                    Новости
+                </lable>
+                <lable class="checked__lable">
+                    <input type="checkbox" class="checked__input">
+                    Галерея
+                </lable>
+                <lable class="checked__lable">
+                    <input type="checkbox" class="checked__input">
+                    Корзина
+                </lable>
+            </div>
+        </form>
+        <!--
+    <section class="contacts">
+        <h2>Контакты</h2>
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Afb2334f22e0d7d3f71853e753ef175ae53724a5f9f86740447a8783fbb96421a&amp;source=constructor" width="100%" height="416" frameborder="0"></iframe>
+        <div class="contacts__card">
+          <div class="contacts__wrapper">
+          <p class="contacts__title">NЁRDS DESIGN STUDIO</p>
+            <p class="contacts__adress">наб. Реки Карповки,<br> 5 лит П, Санкт-Петербург</p>
+            <a href="tel:+7 800 555-86-28" class="contacts__tel">+7 800 555-86-28</a>
+          
+            <a href="#" class="contacts__box-btn">Напишите нам</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+    <div class="footer">
+      <ul class="footer__social">
+        <li class="footer__icon"><a href="blank.html" class="footer__link"><img src="image/vk-icon.svg" alt="vk" class="icon"><img src="image/circle__icon.svg" alt="background" class="circle__icon"></a></li>
+        <li class="footer__icon"><a href="#" class="footer__link"><img src="image/insta-icon.svg" alt="inst" class="icon"><img src="image/circle__icon.svg" alt="background" class="circle__icon"></a></li>
+        <li class="footer__icon"><a href="#" class="footer__link"><img src="image/fb-icon.svg" alt="fb" class="icon"><img src="image/circle__icon.svg" alt="background" class="circle__icon"></a></li>
+      </ul>
+      <div class="footer__content">
+        <h3 class="footer__title">Давайте дружить, это выгодно!</h3>
+        <p class="footer__text">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+  </footer>-->
+</body>
+</html>
